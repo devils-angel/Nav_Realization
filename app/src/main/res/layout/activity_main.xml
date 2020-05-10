@@ -15,45 +15,82 @@
         android:orientation="vertical">
 
 
-
-        <TextView
-            style="@style/titles"
-            android:id="@+id/textView7"
+        <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/rose"
-            android:background="@color/rose"/>
+            android:layout_weight="1"
+            android:background="@color/rose">
 
-        <TextView
-            style="@style/titles"
-            android:id="@+id/textView2"
+            <TextView
+                android:id="@+id/textView7"
+                style="@style/titles"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="@string/rose" />
+        </FrameLayout>
+
+        <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/lily"
-            android:background="@color/lily"/>
+            android:layout_weight="1"
+            android:background="@color/lily">
 
-        <TextView
-            style="@style/titles"
-            android:id="@+id/textView3"
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/titles"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="@string/lily" />
+        </FrameLayout>
+
+
+        <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/lotus"
-            android:background="@color/lotus"/>
+            android:layout_weight="1"
+            android:background="@color/lotus">
 
-        <TextView
-            style="@style/titles"
-            android:id="@+id/textView4"
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/titles"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="@string/lotus" />
+        </FrameLayout>
+
+
+        <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/poppy"
-            android:background="@color/poppy"/>
+            android:layout_weight="1"
+            android:background="@color/poppy">
 
-        <TextView
-            style="@style/titles"
-            android:id="@+id/textView5"
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/titles"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="@string/poppy" />
+
+        </FrameLayout>
+
+        <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/lavender"
-            android:background="@color/lavender" />
+            android:layout_weight="1"
+            android:background="@color/lavender">
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/titles"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="@string/lavender" />
+        </FrameLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
