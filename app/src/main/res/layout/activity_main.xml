@@ -27,7 +27,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:text="@string/rose" />
+                android:text="@string/rose"
+                android:background="?android:attr/selectableItemBackground"/>
         </FrameLayout>
 
         <FrameLayout
@@ -42,7 +43,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:text="@string/lily" />
+                android:text="@string/lily"
+                android:background="?android:attr/selectableItemBackground"/>
         </FrameLayout>
 
 
@@ -58,7 +60,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:text="@string/lotus" />
+                android:text="@string/lotus"
+                android:background="?android:attr/selectableItemBackground"/>
         </FrameLayout>
 
 
@@ -74,7 +77,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:text="@string/poppy" />
+                android:text="@string/poppy"
+                android:background="?android:attr/selectableItemBackground"/>
 
         </FrameLayout>
 
@@ -90,7 +94,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:text="@string/lavender" />
+                android:text="@string/lavender"
+                android:background="?android:attr/selectableItemBackground"/>
         </FrameLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
