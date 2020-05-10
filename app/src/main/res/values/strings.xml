@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Nav_ Realization</string>
+    <string name="rose">ROSE</string>
+    <string name="lily">LILY</string>
+    <string name="lotus">LOTUS</string>
+    <string name="poppy">POPPY</string>
+    <string name="lavender">LAVENDER</string>
+    <string name="lav">HELLO LAVENDER!!!</string>
+    <string name="pop">HELLO POPPY!!!</string>
+    <string name="lot">HELLO LOTUS!!!</string>
+    <string name="lil">HELLO LILY!!!</string>
+    <string name="ros">HELLO ROSE!!!</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="titles">#000000</color>
+    <color name="rose">#FF1744</color>
+    <color name="lily">#FFC400</color>
+    <color name="lotus">#FF4D89</color>
+    <color name="lavender">#D500F9</color>
+    <color name="poppy">#D903FF14</color>
+</resources>
